@@ -30,3 +30,5 @@ function Iniciar(){
     Concurrent.Thread.create(AvanzaMoto, "Jugador3", "MtsMoto3", "motoanim3",1900);
     Concurrent.Thread.create(AvanzaMoto, "Jugador4", "MtsMoto4", "motoanim4",1900);
 }
+
+//holi
