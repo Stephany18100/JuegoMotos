@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrera de motos</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body bgcolor="#ABC">
+    <center>
+        <h1>La gran carrera</h1>
+    </center>
+     <h1>
+    <label>Moto 1:</label>
+     <input type= "text" id="Jugador1" style="font-size: 30px;" value="Ases"/>
+     <label>Moto 2:</label>
+     <input type= "text" id="Jugador2" style="font-size: 30px;" value="Juan"/>
+     <label>Moto 3:</label>
+     <input type= "text" id="Jugador3" style="font-size: 30px;" value="Tapia"/>
+     <label>Moto 4:</label>
+     <input type= "text" id="Jugador4" style="font-size: 30px;" value="Fanny"/>
+    <button onclick="Iniciar();" style="font-size: 40; width: 250px; height: 70px;"> Iniciar</button>
+     </h1>
+
+     <div class="pista1">
+        <img src="img/motoestatica.gif" width="200" id="motoestatica1">
+        <img src="img/motoanim.gif" width="200" id="motoanim1" style="display: none">
+        <input type="text" size="7" id="MtsMoto1" value="0" readonly ><br ><br>
+      </div>
+      
+      <div class="pista2">
+        <img src="img/motoestatica.gif" width="200" id="motoestatica2">
+        <img src="img/motoanim.gif" width="200" id="motoanim2" style="display: none">
+        <input type="text" size="7" id="MtsMoto2" value="0" readonly ><br ><br>
+      </div>
+      
+      <div class="pista3">
+        <img src="img/motoestatica.gif" width="200" id="motoestatica3">
+        <img src="img/motoanim.gif" width="200" id="motoanim3" style="display: none">
+        <input type="text" size="7" id="MtsMoto3" value="0" readonly ><br ><br >
+      </div>
+      <div class="pista4">
+        <img src="img/motoestatica.gif" width="200" id="motoestatica4">
+        <img src="img/motoanim.gif" width="200" id="motoanim4" style="display: none">
+        <input type="text" size="7" id="MtsMoto4" value="0" readonly ><br ><br >
+      </div>
+   <script src="concurrent.thread.js"></script>
+   <script src="Funciones.js"></script>
+</body>
+
+</html>
